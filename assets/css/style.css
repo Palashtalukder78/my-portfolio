@@ -1,6 +1,6 @@
 body{
     background-image: url(../images/body-background-3.jpg);
-    background-position: 100%;
+    background-position: fixed;
 }
 ul li{
     text-align: end;
@@ -10,15 +10,23 @@ ul li{
     background-color: #a58484;
     color: rgb(255, 255, 255);
 }
-.menu-color:hover{
-    width: 100%;
-    background-color: orange;
-    color: #ffffff;
-    transition: 1s;
+.menu-order{
+    transition: width 2s;
 }
+.menu-color:hover{
+    background-color: orange;
+    width: 100%;
+    color: #ffffff;
+}
+
 
 @media (max-width:1000px) {
     .desktop-left-menu{
         display: none;
+    }
+}
+@media (min-width:1000px) {
+    .scrollable-part{
+        margin-left: 200px;
     }
 }
