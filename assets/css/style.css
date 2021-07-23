@@ -69,7 +69,12 @@ ul li{
     font-size: 30px;
     color: #ffffff;
 }
-
+.copy-right{
+    background-color: rgb(15, 15, 36);
+}
+.copy-right a{
+    text-decoration: none;
+}
 @media (max-width:992px) {
     .desktop-left-menu{
         display: none;
