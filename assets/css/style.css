@@ -2,6 +2,18 @@ body{
     background-image: url(../images/body-background-3.jpg);
     background-position: fixed;
 }
+.desktop-left-menu{
+    float: left;
+    width: 15%;
+    height: 100%;
+    overflow:visible;
+    margin-right: 0px;
+    display:block;
+}
+.main-part{
+    display: flex;
+    justify-content: flex-end;
+}
 ul li{
     text-align: end;
     list-style: none;
@@ -28,6 +40,9 @@ ul li{
     position: relative;
     margin: 0 5px;
     overflow: hidden;
+}
+.skill-item:hover{
+    transform: translateY(-10px);
 }
 .photo img{
     width: 100%;

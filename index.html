@@ -12,7 +12,6 @@
 </head>
 
 <body class="mx-5">
-    <header>
         <!-- Navigation -->
         <div class="mobile-menu sticky-top">
             <nav class="navbar navbar-expand-lg d-lg-none navbar-light bg-light">
@@ -57,526 +56,528 @@
                 </div>
             </nav>
         </div>
-        <div class="row mt-4">
-            <!-- Desktop Menu  -->
-            <div class="col-lg-2 desktop-left-menu fixed-top mt-4">
-                <img class="img-fluid rounded" src="assets/images/logo.jpg" alt="">
-                <!-- Menu  -->
-                <div class="menu">
-                    <ul>
-                        <li><a class="btn menu-color border-0 menu-color border-0 my-2" href="#home">Home</a></li>
-                        <li><a class="btn menu-color border-0 my-2" href="">About</a></li>
-                        <li><a class="btn menu-color border-0 my-2" href="">Service</a></li>
-                        <li><a class="btn menu-color border-0 my-2" href="">Portfolio</a></li>
-                        <li><a class="btn menu-color border-0 my-2" href="">Blog</a></li>
-                        <li><a class="btn menu-color border-0 my-2" href="">Clients</a></li>
-                        <li><a class="btn menu-color border-0 my-2" href="">Resume</a></li>
-                        <li><a class="btn menu-color border-0 my-2" href="">Contact Me</a></li>
-                    </ul>
+        <!-- Desktop Menu  -->
+        <div class="row mt-4 main-part">
+            <div class="container">
+                <div class="col-lg-2 desktop-left-menu fixed-top mt-4 text-right">
+                    <img class="img-fluid rounded " src="assets/images/logo.jpg" alt="">
+                    <!-- Menu  -->
+                    <div class="menu">
+                        <ul>
+                            <li><a class="btn menu-color border-0 menu-color border-0 my-2" href="#home">Home</a></li>
+                            <li><a class="btn menu-color border-0 my-2" href="">About</a></li>
+                            <li><a class="btn menu-color border-0 my-2" href="">Service</a></li>
+                            <li><a class="btn menu-color border-0 my-2" href="">Portfolio</a></li>
+                            <li><a class="btn menu-color border-0 my-2" href="">Blog</a></li>
+                            <li><a class="btn menu-color border-0 my-2" href="">Clients</a></li>
+                            <li><a class="btn menu-color border-0 my-2" href="">Resume</a></li>
+                            <li><a class="btn menu-color border-0 my-2" href="">Contact Me</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <!-- Main-Body  -->
-            <div class="col-lg-10 scrollable-part">
-                <div id="home" class="row">
-                    <div class="col-lg-9">
+                <!-- Main-Body  -->
+                <div class="col-lg-10 scrollable-part">
+                    <div id="home" class="row">
+                        <div class="col-lg-9">
+                            <!-- Slider  -->
+                            <div id="serviceslider" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#serviceslider" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#serviceslider" data-bs-slide-to="1"
+                                        aria-label="Slide 2">
+                                    </button>
+                                </div>
+                                <div class="carousel-inner rounded border border-secondary border-5">
+                                    <div class="carousel-item active slider-1 text-light">
+                                        <img class="img-fluid" width="100%" height="407px"
+                                            src="assets/images/sliders/1.png" class="d-block w-100" alt="...">
+                                    </div>
+    
+                                    <div class="carousel-item border-3">
+                                        <img class="img-fluid" width="100%" height="407px"
+                                            src="assets/images/sliders/2.png" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- About me Tag Line -->
+                            <div
+                                class="bg-dark text-light my-4 p-4 d-flex justify-content-center align-items-center rounded">
+                                <h5 class="display-6"><span class="text-secondary">I work with</span> passion and knowledge.
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="side-image d-sm-none d-md-block">
+                                <img class="img-fluid border border-5 border-secondary rounded"
+                                    src="assets/images/programming-photo.jpg" alt="">
+                            </div>
+                            <div class="card my-4">
+                                <div class="card-header bg-secondary text-light">Who i am ?</div>
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <img class="img-fluid rounded-circle w-50" src="assets/images/logo.jpg" alt="">
+                                    </div>
+                                    <p class="text-justify">Hi, I am a web designer, Wordpress Expert (Level 1 Seller ) on
+                                        Fiverr.
+                                    </p>
+                                    <a class="btn btn-secondary d-block" href="">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skill Slider Section -->
+                    <div class="row bg-white rounded p-4 m-1">
+                        <!-- My Service  -->
+                        <div class="service-heading d-flex justify-content-center align-items-center">
+                            <div class="service-stright-line ">
+                                <img class="img-fluid w-40 me-2" src="assets/images/line.png" alt="">
+                            </div>
+                            <div class="text-center text-secondary">
+                                <h2>My Skills</h2>
+                            </div>
+                            <div class="service-stright-line">
+                                <img class="img-fluid w-40 ms-2" src="assets/images/line.png" alt="">
+                            </div>
+                        </div>
                         <!-- Slider  -->
-                        <div id="serviceslider" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#serviceslider" data-bs-slide-to="0"
-                                    class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#serviceslider" data-bs-slide-to="1"
-                                    aria-label="Slide 2">
-                                </button>
-                            </div>
-                            <div class="carousel-inner rounded border border-secondary border-5">
-                                <div class="carousel-item active slider-1 text-light">
-                                    <img class="img-fluid" width="100%" height="407px"
-                                        src="assets/images/sliders/1.png" class="d-block w-100" alt="...">
-                                </div>
-
-                                <div class="carousel-item border-3">
-                                    <img class="img-fluid" width="100%" height="407px"
-                                        src="assets/images/sliders/2.png" class="d-block w-100" alt="...">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- About me Tag Line -->
-                        <div
-                            class="bg-dark text-light my-4 p-4 d-flex justify-content-center align-items-center rounded">
-                            <h5 class="display-6"><span class="text-secondary">I work with</span> passion and knowledge.
-                            </h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="side-image d-sm-none d-md-block">
-                            <img class="img-fluid border border-5 border-secondary rounded"
-                                src="assets/images/programming-photo.jpg" alt="">
-                        </div>
-                        <div class="card my-4">
-                            <div class="card-header bg-secondary text-light">Who i am ?</div>
-                            <div class="card-body">
-                                <div class="text-center">
-                                    <img class="img-fluid rounded-circle w-50" src="assets/images/logo.jpg" alt="">
-                                </div>
-                                <p class="text-justify">Hi, I am a web designer, Wordpress Expert (Level 1 Seller ) on
-                                    Fiverr.
-                                </p>
-                                <a class="btn btn-secondary d-block" href="">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Skill Slider Section -->
-                <div class="row bg-white rounded p-4 m-1">
-                    <!-- My Service  -->
-                    <div class="service-heading d-flex justify-content-center align-items-center">
-                        <div class="service-stright-line ">
-                            <img class="img-fluid w-40 me-2" src="assets/images/line.png" alt="">
-                        </div>
-                        <div class="text-center text-secondary">
-                            <h2>My Skills</h2>
-                        </div>
-                        <div class="service-stright-line">
-                            <img class="img-fluid w-40 ms-2" src="assets/images/line.png" alt="">
-                        </div>
-                    </div>
-                    <!-- Slider  -->
-                    <div id="carouselExampleControls" class="carousel slide mt-4" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-lg-3 col-md-3 mt-md-2 mt-sm-2">
-                                        <div class="services">
-                                            <div class="services-photo-frame">
-                                                <div class="photo">
-                                                    <img src="assets/images/service-sliders/service-1.jpg" alt="">
-                                                </div>
-                                                <div class="photo-detail">
-                                                    <h3>HTML 5</h3>
-                                                    <div style="width: 80%;" class="progress">
-                                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
-                                                            role="progressbar" style="width: 90%;" aria-valuenow="25"
-                                                            aria-valuemin="0" aria-valuemax="100">90%
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 mt-md-2 mt-sm-2">
-                                        <div class="services">
-                                            <div class="services-photo-frame">
-                                                <div class="photo">
-                                                    <img src="assets/images/service-sliders/service-2.jpg" alt="">
-                                                </div>
-                                                <div class="photo-detail">
-                                                    <h3>CSS 3</h3>
-                                                    <div style="width: 80%;" class="progress">
-                                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
-                                                            role="progressbar" style="width: 85%;" aria-valuenow="25"
-                                                            aria-valuemin="0" aria-valuemax="100">85%
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 mt-md-2 mt-sm-2">
-                                        <div class="services">
-                                            <div class="services-photo-frame">
-                                                <div class="photo">
-                                                    <img src="assets/images/service-sliders/service-3.jpg" alt="">
-                                                </div>
-                                                <div class="photo-detail">
-                                                    <h3>Bootstrap 5</h3>
-                                                    <div style="width: 80%;" class="progress">
-                                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
-                                                            role="progressbar" style="width: 85%;" aria-valuenow="25"
-                                                            aria-valuemin="0" aria-valuemax="100">85%
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 mt-md-2 mt-sm-2">
-                                        <div class="services">
-                                            <div class="services-photo-frame">
-                                                <div class="photo">
-                                                    <img src="assets/images/service-sliders/service-4.jpg" alt="">
-                                                </div>
-                                                <div class="photo-detail">
-                                                    <h3>PHP</h3>
-                                                    <div style="width: 80%;" class="progress">
-                                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
-                                                            role="progressbar" style="width: 80%;" aria-valuenow="25"
-                                                            aria-valuemin="0" aria-valuemax="100">80%
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-lg-3 col-md-3 mt-md-2 mt-sm-2">
-                                        <div class="services">
-                                            <div class="services-photo-frame">
-                                                <div class="photo">
-                                                    <img src="assets/images/service-sliders/service-5.jpg" alt="">
-                                                </div>
-                                                <div class="photo-detail">
-                                                    <h3>Laravel 7</h3>
-                                                    <div style="width: 80%;" class="progress">
-                                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
-                                                            role="progressbar" style="width: 80%;" aria-valuenow="25"
-                                                            aria-valuemin="0" aria-valuemax="100">80%
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 mt-md-2 mt-sm-2">
-                                        <div class="services">
-                                            <div class="services-photo-frame">
-                                                <div class="photo">
-                                                    <img src="assets/images/service-sliders/service-6.jpg" alt="">
-                                                </div>
-                                                <div class="photo-detail">
-                                                    <h3>Javascript</h3>
-                                                    <div style="width: 80%;" class="progress">
-                                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
-                                                            role="progressbar" style="width: 70%;" aria-valuenow="25"
-                                                            aria-valuemin="0" aria-valuemax="100">85%
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 mt-md-2 mt-sm-2">
-                                        <div class="services">
-                                            <div class="services-photo-frame">
-                                                <div class="photo">
-                                                    <img src="assets/images/service-sliders/service-7.jpg" alt="">
-                                                </div>
-                                                <div class="photo-detail">
-                                                    <h3>React Js</h3>
-                                                    <div style="width: 80%;" class="progress">
-                                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
-                                                            role="progressbar" style="width: 100%;" aria-valuenow="25"
-                                                            aria-valuemin="0" aria-valuemax="100">Studing....
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 mt-md-2 mt-sm-2">
-                                        <div class="services">
-                                            <div class="services-photo-frame">
-                                                <div class="photo">
-                                                    <img src="assets/images/service-sliders/service-8.jpg" alt="">
-                                                </div>
-                                                <div class="photo-detail">
-                                                    <h3>Node Js</h3>
-                                                    <div style="width: 80%;" class="progress">
-                                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
-                                                            role="progressbar" style="width: 100%;" aria-valuenow="25"
-                                                            aria-valuemin="0" aria-valuemax="100">Studing..
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
-                <!-- Contact me Heading  -->
-                <div class="row my-4 ">
-                    <div class="col-12">
-                        <div
-                            class="bg-secondary text-light my-4 p-4 d-flex justify-content-around align-items-center rounded shadow">
-                            <h5 class="display-6"><span class="text-dark">Don't Hesitate</span> to knock me.
-                            </h5>
-                            <div>
-                                <a href="" class="btn btn-info text-white">Contact me</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <!-- Portfolio Section-->
-                <div class="row portfolio my-4">
-                    <div class="portfolio-heading d-flex justify-content-center align-items-center">
-                        <div class="service-stright-line ">
-                            <img class="img-fluid w-40 me-2" src="assets/images/line.png" alt="">
-                        </div>
-                        <div class="text-center text-secondary">
-                            <h2>My Portfolio</h2>
-                        </div>
-                        <div class="service-stright-line">
-                            <img class="img-fluid w-40 ms-2" src="assets/images/line.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-                        <div class="services">
-                            <div class="services-photo-frame">
-                                <div class="photo">
-                                    <img src="assets/images/portfolio-photo/portfolio-9.png" alt="">
-                                </div>
-                                <div class="photo-detail">
-                                    <a href="https://palashtalukder78.github.io/Portfolio/" target="_blank"><i
-                                            class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-                        <div class="services">
-                            <div class="services-photo-frame">
-                                <div class="photo">
-                                    <img src="assets/images/portfolio-photo/portfolio-1.png" alt="">
-                                </div>
-                                <div class="photo-detail">
-                                    <a href="https://palashtalukder78.github.io/assignment-2-football-responsive/"
-                                        target="_blank"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-                        <div class="services">
-                            <div class="services-photo-frame">
-                                <div class="photo">
-                                    <img src="assets/images/portfolio-photo/portfolio-3.png" alt="">
-                                </div>
-                                <div class="photo-detail">
-                                    <a href="https://palashtalukder78.github.io/assignment/" target="_blank"><i
-                                            class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-                        <div class="services">
-                            <div class="services-photo-frame">
-                                <div class="photo">
-                                    <img src="assets/images/portfolio-photo/portfolio-6.png" alt="">
-                                </div>
-                                <div class="photo-detail">
-                                    <a href="https://palash-talukder.netlify.app/" target="_blank"><i
-                                            class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-                        <div class="services">
-                            <div class="services-photo-frame">
-                                <div class="photo">
-                                    <img src="assets/images/portfolio-photo/portfolio-4.png" alt="">
-                                </div>
-                                <div class="photo-detail">
-                                    <a href="https://palashtalukder78.github.io/panda-commerce/" target="_blank"><i
-                                            class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-                        <div class="services">
-                            <div class="services-photo-frame">
-                                <div class="photo">
-                                    <img src="assets/images/portfolio-photo/portfolio-5.png" alt="">
-                                </div>
-                                <div class="photo-detail">
-                                    <a href="https://palashtalukder78.github.io/panda-commerce/" target="_blank"><i
-                                            class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-                        <div class="services">
-                            <div class="services-photo-frame">
-                                <div class="photo">
-                                    <img src="assets/images/portfolio-photo/portfolio-7.png" alt="">
-                                </div>
-                                <div class="photo-detail">
-                                    <a href="https://palashtalukder78.github.io/Glozzom/" target="_blank"><i
-                                            class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-                        <div class="services">
-                            <div class="services-photo-frame">
-                                <div class="photo">
-                                    <img src="assets/images/portfolio-photo/portfolio-8.png" alt="">
-                                </div>
-                                <div class="photo-detail">
-                                    <a href="https://palashtalukder78.github.io/Mizuxe/" target="_blank"><i
-                                            class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Testimonial Section -->
-                <div class="row my-5 p-5 bg-white rounded text-secondary text-center shadow">
-                    <!-- Testimonial Heading  -->
-                    <div class="portfolio-heading d-flex justify-content-center align-items-center">
-                        <div class="service-stright-line ">
-                            <img class="img-fluid w-40 me-2" src="assets/images/line.png" alt="">
-                        </div>
-                        <div class="text-center">
-                            <h2>Testimonial</h2>
-                        </div>
-                        <div class="service-stright-line">
-                            <img class="img-fluid w-40 ms-2" src="assets/images/line.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-12 my-3 ">
-                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div id="carouselExampleControls" class="carousel slide mt-4" data-bs-ride="carousel">
                             <div class="carousel-inner">
-                                <div class="carousel-item active ">
-                                    <p>Very easy to work with. Professional and did work as expected and good quality.
-                                        Will engage again for future services</p>
-                                    <img width="50px" height="50px" class="img-fluid rounded-circle my-2"
-                                        src="assets/images/clients/client-1.jpg" alt="">
-                                    <h6>Mr. Jonny</h6>
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 mt-md-2 mt-sm-2 skill-item">
+                                            <div class="services">
+                                                <div class="services-photo-frame">
+                                                    <div class="photo">
+                                                        <img src="assets/images/service-sliders/service-1.jpg" alt="">
+                                                    </div>
+                                                    <div class="photo-detail">
+                                                        <h3>HTML 5</h3>
+                                                        <div style="width: 80%;" class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                                                role="progressbar" style="width: 90%;" aria-valuenow="25"
+                                                                aria-valuemin="0" aria-valuemax="100">90%
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 mt-md-2 mt-sm-2 skill-item">
+                                            <div class="services">
+                                                <div class="services-photo-frame">
+                                                    <div class="photo">
+                                                        <img src="assets/images/service-sliders/service-2.jpg" alt="">
+                                                    </div>
+                                                    <div class="photo-detail">
+                                                        <h3>CSS 3</h3>
+                                                        <div style="width: 80%;" class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                                                role="progressbar" style="width: 85%;" aria-valuenow="25"
+                                                                aria-valuemin="0" aria-valuemax="100">85%
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 mt-md-2 mt-sm-2 skill-item">
+                                            <div class="services">
+                                                <div class="services-photo-frame">
+                                                    <div class="photo">
+                                                        <img src="assets/images/service-sliders/service-3.jpg" alt="">
+                                                    </div>
+                                                    <div class="photo-detail">
+                                                        <h3>Bootstrap 5</h3>
+                                                        <div style="width: 80%;" class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                                                role="progressbar" style="width: 85%;" aria-valuenow="25"
+                                                                aria-valuemin="0" aria-valuemax="100">85%
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 mt-md-2 mt-sm-2 skill-item">
+                                            <div class="services">
+                                                <div class="services-photo-frame">
+                                                    <div class="photo">
+                                                        <img src="assets/images/service-sliders/service-4.jpg" alt="">
+                                                    </div>
+                                                    <div class="photo-detail">
+                                                        <h3>PHP</h3>
+                                                        <div style="width: 80%;" class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                                                role="progressbar" style="width: 80%;" aria-valuenow="25"
+                                                                aria-valuemin="0" aria-valuemax="100">80%
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <p>wonderful work. you are one of the best developers in this world . I pray that
-                                        you will live longer to help many customers works. God bless you and will always
-                                        let you do my jobs</p>
-                                    <img width="50px" height="50px" class="img-fluid rounded-circle my-2"
-                                        src="assets/images/clients/client-2.jpg" alt="">
-                                    <h6>Akwasi,<span class="text-muted">UK</span></h6>
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 mt-md-2 mt-sm-2 skill-item">
+                                            <div class="services">
+                                                <div class="services-photo-frame">
+                                                    <div class="photo">
+                                                        <img src="assets/images/service-sliders/service-5.jpg" alt="">
+                                                    </div>
+                                                    <div class="photo-detail">
+                                                        <h3>Laravel 7</h3>
+                                                        <div style="width: 80%;" class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                                                role="progressbar" style="width: 80%;" aria-valuenow="25"
+                                                                aria-valuemin="0" aria-valuemax="100">80%
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 mt-md-2 mt-sm-2 skill-item">
+                                            <div class="services">
+                                                <div class="services-photo-frame">
+                                                    <div class="photo">
+                                                        <img src="assets/images/service-sliders/service-6.jpg" alt="">
+                                                    </div>
+                                                    <div class="photo-detail">
+                                                        <h3>Javascript</h3>
+                                                        <div style="width: 80%;" class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                                                role="progressbar" style="width: 70%;" aria-valuenow="25"
+                                                                aria-valuemin="0" aria-valuemax="100">85%
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 mt-md-2 mt-sm-2 skill-item">
+                                            <div class="services">
+                                                <div class="services-photo-frame">
+                                                    <div class="photo">
+                                                        <img src="assets/images/service-sliders/service-7.jpg" alt="">
+                                                    </div>
+                                                    <div class="photo-detail">
+                                                        <h3>React Js</h3>
+                                                        <div style="width: 80%;" class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                                                role="progressbar" style="width: 100%;" aria-valuenow="25"
+                                                                aria-valuemin="0" aria-valuemax="100">Studing....
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 mt-md-2 mt-sm-2 skill-item">
+                                            <div class="services">
+                                                <div class="services-photo-frame">
+                                                    <div class="photo">
+                                                        <img src="assets/images/service-sliders/service-8.jpg" alt="">
+                                                    </div>
+                                                    <div class="photo-detail">
+                                                        <h3>Node Js</h3>
+                                                        <div style="width: 80%;" class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                                                role="progressbar" style="width: 100%;" aria-valuenow="25"
+                                                                aria-valuemin="0" aria-valuemax="100">Studing..
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="carousel-item">
-                                    <p>Always available, make all changes fast with many revisions. Thanks. Will work
-                                        again !</p>
-                                    <img width="50px" height="50px" class="img-fluid rounded-circle my-2"
-                                        src="assets/images/clients/client-3.jpg" alt="">
-                                    <h6>Jimarestotel</h6>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Contact me Heading  -->
+                    <div class="row my-4 ">
+                        <div class="col-12">
+                            <div
+                                class="bg-secondary text-light my-4 p-4 d-flex justify-content-around align-items-center rounded shadow">
+                                <h5 class="display-6"><span class="text-dark">Don't Hesitate</span> to knock me.
+                                </h5>
+                                <div>
+                                    <a href="" class="btn btn-info text-white">Contact me</a>
                                 </div>
-                                <div class="carousel-item">
-                                    <p>Very easy to work with. Professional and did work as expected and good quality.
-                                        Will engage again for future services</p>
-                                    <img width="50px" height="50px" class="img-fluid rounded-circle my-2"
-                                        src="assets/images/clients/client-4.jpg" alt="">
-                                    <h6>Satsriak, Malysia</h6>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <!-- Portfolio Section-->
+                    <div class="row portfolio my-4">
+                        <div class="portfolio-heading d-flex justify-content-center align-items-center">
+                            <div class="service-stright-line ">
+                                <img class="img-fluid w-40 me-2" src="assets/images/line.png" alt="">
+                            </div>
+                            <div class="text-center text-secondary">
+                                <h2>My Portfolio</h2>
+                            </div>
+                            <div class="service-stright-line">
+                                <img class="img-fluid w-40 ms-2" src="assets/images/line.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                            <div class="services">
+                                <div class="services-photo-frame">
+                                    <div class="photo">
+                                        <img src="assets/images/portfolio-photo/portfolio-9.png" alt="">
+                                    </div>
+                                    <div class="photo-detail">
+                                        <a href="https://palashtalukder78.github.io/Portfolio/" target="_blank"><i
+                                                class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                            <div class="services">
+                                <div class="services-photo-frame">
+                                    <div class="photo">
+                                        <img src="assets/images/portfolio-photo/portfolio-1.png" alt="">
+                                    </div>
+                                    <div class="photo-detail">
+                                        <a href="https://palashtalukder78.github.io/assignment-2-football-responsive/"
+                                            target="_blank"><i class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                            <div class="services">
+                                <div class="services-photo-frame">
+                                    <div class="photo">
+                                        <img src="assets/images/portfolio-photo/portfolio-3.png" alt="">
+                                    </div>
+                                    <div class="photo-detail">
+                                        <a href="https://palashtalukder78.github.io/assignment/" target="_blank"><i
+                                                class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                            <div class="services">
+                                <div class="services-photo-frame">
+                                    <div class="photo">
+                                        <img src="assets/images/portfolio-photo/portfolio-6.png" alt="">
+                                    </div>
+                                    <div class="photo-detail">
+                                        <a href="https://palash-talukder.netlify.app/" target="_blank"><i
+                                                class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                            <div class="services">
+                                <div class="services-photo-frame">
+                                    <div class="photo">
+                                        <img src="assets/images/portfolio-photo/portfolio-4.png" alt="">
+                                    </div>
+                                    <div class="photo-detail">
+                                        <a href="https://palashtalukder78.github.io/panda-commerce/" target="_blank"><i
+                                                class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                            <div class="services">
+                                <div class="services-photo-frame">
+                                    <div class="photo">
+                                        <img src="assets/images/portfolio-photo/portfolio-5.png" alt="">
+                                    </div>
+                                    <div class="photo-detail">
+                                        <a href="https://palashtalukder78.github.io/panda-commerce/" target="_blank"><i
+                                                class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                            <div class="services">
+                                <div class="services-photo-frame">
+                                    <div class="photo">
+                                        <img src="assets/images/portfolio-photo/portfolio-7.png" alt="">
+                                    </div>
+                                    <div class="photo-detail">
+                                        <a href="https://palashtalukder78.github.io/Glozzom/" target="_blank"><i
+                                                class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                            <div class="services">
+                                <div class="services-photo-frame">
+                                    <div class="photo">
+                                        <img src="assets/images/portfolio-photo/portfolio-8.png" alt="">
+                                    </div>
+                                    <div class="photo-detail">
+                                        <a href="https://palashtalukder78.github.io/Mizuxe/" target="_blank"><i
+                                                class="fa fa-eye"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- Footer Section  -->
-                <div class="row bg-dark text-secondary mt-5 py-4 rounded-top ">
-                    <div class="col-md-4 text-center px-2 mb-sm-4">
-                        <img width="50px" height="50px" src="assets/images/logo.jpg" class="img-fluid rounded-circle"
-                            alt="">
-                        <p class="text-left">Hi, I am a web designer(Level 1 Seller ) on Fiverr. I completed 20+
-                            projects in Fiverr. Expertise: ✔HTML5,CSS3 ✔Bootstrap ✔PHP ✔Laravel ✔Wordpress ✔Shpify ✔Wix
-                        </p>
-
-                        <div class="social-icon mb-3">
-                            <a class="me-2"
-                                style="width: 20px ; height: 20px; padding: 10px; border-radius: 5px; background-color: rgb(93, 141, 91); color: #ffffff;"
-                                href="https://www.facebook.com/profile.php?id=100009430642663" target="_blank"><i
-                                    style="font-size: 20px;" class="fab fa-facebook m-0 p-0"></i></a>
-
-                            <a class="me-2"
-                                style="width: 20px ; height: 20px; padding: 10px; border-radius: 5px; background-color: rgb(26, 129, 90); color: #ffffff;"
-                                href="https://twitter.com/PalashT53549254" target="_blank"><i style="font-size: 20px;"
-                                    class="fa fa-twitter m-0 p-0"></i></a>
-
-                            <a class="me-2"
-                                style="width: 20px ; height: 20px; padding: 10px; border-radius: 5px; background-color: rgb(54, 54, 141); color: #ffffff;"
-                                href="https://www.linkedin.com/in/palash-talukder-53669019a/" target="_blank"><i
-                                    style="font-size: 20px;" class="fa fa-linkedin m-0 p-0"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 px-4">
-                        <h4 class="text-center">Contact-info</h4>
-                        <div class="d-flex align-items-center">
-                            <div style="background-color: rgb(117, 112, 103); color: #ffffff; padding: 15px; border-radius: 5px;"
-                                class="me-2 ">
-                                <i style="height: 15px; width: 15px;font-size: 15px;"
-                                    class="fas fa-home text-center; padding: 0; "></i>
+                    <!-- Testimonial Section -->
+                    <div class="row my-5 p-5 bg-white rounded text-secondary text-center shadow testimonial">
+                        <!-- Testimonial Heading  -->
+                        <div class="portfolio-heading d-flex justify-content-center align-items-center">
+                            <div class="service-stright-line ">
+                                <img class="img-fluid w-40 me-2" src="assets/images/line.png" alt="">
                             </div>
-                            <div>
-                                <strong class="p-0 m-0">Md Ariful Islam Palash Talukder</strong>
-                                <p class="p-0 m-0">Gopalpur, Tangail</p>
+                            <div class="text-center">
+                                <h2>Testimonial</h2>
+                            </div>
+                            <div class="service-stright-line">
+                                <img class="img-fluid w-40 ms-2" src="assets/images/line.png" alt="">
                             </div>
                         </div>
-                        <hr>
-                        <div class="d-flex align-items-center">
-                            <div style="background-color: rgb(189, 164, 119); color: #ffffff; padding: 15px; border-radius: 5px;"
-                                class="me-2">
-                                <i style="height: 15px; width: 15px;font-size: 15px;"
-                                    class="fa fa-envelope text-center; padding: 0; border-radius: 50%;"></i>
-                            </div>
-                            <div>
-                                <p class="p-0 m-0">palashtalukder78@gmail.com</p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="d-flex align-items-center">
-                            <div style="background-color: rgb(104, 89, 63); color: #ffffff; padding: 15px; border-radius: 5px;"
-                                class="me-2">
-                                <i style="height: 15px; width: 15px;font-size: 15px;"
-                                    class="fa fa-phone text-center; padding: 0; border-radius: 50%;"></i>
-                            </div>
-                            <div>
-                                <p class="p-0 m-0">+88019-90524105</p>
+                        <div class="col-12 my-3 ">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active ">
+                                        <p>Very easy to work with. Professional and did work as expected and good quality.
+                                            Will engage again for future services</p>
+                                        <img width="50px" height="50px" class="img-fluid rounded-circle my-2"
+                                            src="assets/images/clients/client-1.jpg" alt="">
+                                        <h6>Mr. Jonny</h6>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <p>wonderful work. you are one of the best developers in this world . I pray that
+                                            you will live longer to help many customers works. God bless you and will always
+                                            let you do my jobs</p>
+                                        <img width="50px" height="50px" class="img-fluid rounded-circle my-2"
+                                            src="assets/images/clients/client-2.jpg" alt="">
+                                        <h6>Akwasi,<span class="text-muted">UK</span></h6>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <p>Always available, make all changes fast with many revisions. Thanks. Will work
+                                            again !</p>
+                                        <img width="50px" height="50px" class="img-fluid rounded-circle my-2"
+                                            src="assets/images/clients/client-3.jpg" alt="">
+                                        <h6>Jimarestotel</h6>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <p>Very easy to work with. Professional and did work as expected and good quality.
+                                            Will engage again for future services</p>
+                                        <img width="50px" height="50px" class="img-fluid rounded-circle my-2"
+                                            src="assets/images/clients/client-4.jpg" alt="">
+                                        <h6>Satsriak, Malysia</h6>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 px-2">
-                        <h4 class="text-center">Contact-Me</h4>
-                        <p>If you need any kind of help about your Project. You can Message me Here.</p>
-                        <form action="">
-                            <input style="background-color: rgb(50, 50, 75);" type="text"
-                                class="form-control mb-1 text-light" placeholder="Your Name">
-                            <input style="background-color: rgb(50, 50, 75);" type="Email"
-                                class="form-control mb-1  text-light" placeholder="Your Email">
-                            <textarea style="background-color: rgb(50, 50, 75);" name="" id="" cols="30" rows="2"
-                                class="form-control mb-1  text-light" placeholder="Your Messages"></textarea>
-                            <a class="btn btn-secondary btn-sm d-block">Submit</a>
-                        </form>
+                    <!-- Footer Section  -->
+                    <div class="row bg-dark text-secondary mt-5 py-4 rounded-top ">
+                        <div class="col-md-4 text-center px-2 mb-sm-4">
+                            <img width="50px" height="50px" src="assets/images/logo.jpg" class="img-fluid rounded-circle"
+                                alt="">
+                            <p class="text-left">Hi, I am a web designer(Level 1 Seller ) on Fiverr. I completed 20+
+                                projects in Fiverr. Expertise: ✔HTML5,CSS3 ✔Bootstrap ✔PHP ✔Laravel ✔Wordpress ✔Shpify ✔Wix
+                            </p>
+    
+                            <div class="social-icon mb-3">
+                                <a class="me-2"
+                                    style="width: 20px ; height: 20px; padding: 10px; border-radius: 5px; background-color: rgb(93, 141, 91); color: #ffffff;"
+                                    href="https://www.facebook.com/profile.php?id=100009430642663" target="_blank"><i
+                                        style="font-size: 20px;" class="fab fa-facebook m-0 p-0"></i></a>
+    
+                                <a class="me-2"
+                                    style="width: 20px ; height: 20px; padding: 10px; border-radius: 5px; background-color: rgb(26, 129, 90); color: #ffffff;"
+                                    href="https://twitter.com/PalashT53549254" target="_blank"><i style="font-size: 20px;"
+                                        class="fa fa-twitter m-0 p-0"></i></a>
+    
+                                <a class="me-2"
+                                    style="width: 20px ; height: 20px; padding: 10px; border-radius: 5px; background-color: rgb(54, 54, 141); color: #ffffff;"
+                                    href="https://www.linkedin.com/in/palash-talukder-53669019a/" target="_blank"><i
+                                        style="font-size: 20px;" class="fa fa-linkedin m-0 p-0"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 px-4">
+                            <h4 class="text-center">Contact-info</h4>
+                            <div class="d-flex align-items-center">
+                                <div style="background-color: rgb(117, 112, 103); color: #ffffff; padding: 15px; border-radius: 5px;"
+                                    class="me-2 ">
+                                    <i style="height: 15px; width: 15px;font-size: 15px;"
+                                        class="fas fa-home text-center; padding: 0; "></i>
+                                </div>
+                                <div>
+                                    <strong class="p-0 m-0">Md Ariful Islam Palash Talukder</strong>
+                                    <p class="p-0 m-0">Gopalpur, Tangail</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center">
+                                <div style="background-color: rgb(189, 164, 119); color: #ffffff; padding: 15px; border-radius: 5px;"
+                                    class="me-2">
+                                    <i style="height: 15px; width: 15px;font-size: 15px;"
+                                        class="fa fa-envelope text-center; padding: 0; border-radius: 50%;"></i>
+                                </div>
+                                <div>
+                                    <p class="p-0 m-0">palashtalukder78@gmail.com</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center">
+                                <div style="background-color: rgb(104, 89, 63); color: #ffffff; padding: 15px; border-radius: 5px;"
+                                    class="me-2">
+                                    <i style="height: 15px; width: 15px;font-size: 15px;"
+                                        class="fa fa-phone text-center; padding: 0; border-radius: 50%;"></i>
+                                </div>
+                                <div>
+                                    <p class="p-0 m-0">+88019-90524105</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 px-2">
+                            <h4 class="text-center">Contact-Me</h4>
+                            <p>If you need any kind of help about your Project. You can Message me Here.</p>
+                            <form action="">
+                                <input style="background-color: rgb(50, 50, 75);" type="text"
+                                    class="form-control mb-1 text-light" placeholder="Your Name">
+                                <input style="background-color: rgb(50, 50, 75);" type="Email"
+                                    class="form-control mb-1  text-light" placeholder="Your Email">
+                                <textarea style="background-color: rgb(50, 50, 75);" name="" id="" cols="30" rows="2"
+                                    class="form-control mb-1  text-light" placeholder="Your Messages"></textarea>
+                                <a class="btn btn-secondary btn-sm d-block">Submit</a>
+                            </form>
+                        </div>
                     </div>
-                </div>
-                <!-- Copy right Section  -->
-                <div class="row copy-right">
-                    <div class="col-12 text-center text-secondary py-2">
-                        <p class="m-0">Copyright &copy2021 | Designed by <a class="text-info"
-                                href="https://www.facebook.com/profile.php?id=100009430642663" target="_blank">Palash
-                                Talukder</a></p>
+                    <!-- Copy right Section  -->
+                    <div class="row copy-right">
+                        <div class="col-12 text-center text-secondary py-2">
+                            <p class="m-0">Copyright &copy2021 | Designed by <a class="text-info"
+                                    href="https://www.facebook.com/profile.php?id=100009430642663" target="_blank">Palash
+                                    Talukder</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
-    </header>
+        </div>
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/2cd059a6cf.js" crossorigin="anonymous"></script>
