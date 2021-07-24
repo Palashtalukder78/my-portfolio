@@ -33,8 +33,17 @@ ul li{
     margin: 0 5px;
     overflow: hidden;
 }
+.portfolio{
+    transition: all ease 0.4s;
+}
+.portfolio:hover{
+    transform: translateY(-8px);
+}
+.skill-item{
+    transition: all ease 0.4s;
+}
 .skill-item:hover{
-    transform: translateY(-10px);
+    transform: translateY(-8px);
 }
 .photo img{
     width: 100%;
